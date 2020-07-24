@@ -1,0 +1,60 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+% \usepackage{showframe} % Debugging
+\usepackage[none]{hyphenat}
+\frenchspacing
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Nicholas Sullivan-Friedman}
+\fullname{Nicholas}{Sullivan-Friedman}
+
+\basicInfo{
+  \email{nicholas@rpgcubed.com} \textperiodcentered\ 
+  \phone{(+1) 415 328-9195} %\textperiodcentered\ 
+  %\linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
+  }
+
+
+%-------------------------------------------------------------------------------
+% LETTER INFORMATION
+% All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Compeat Training and Implementation Team}
+  {Compeat, Inc.\\1670 Corporate Circle\\Suite 101\\Petaluma, CA 94954}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Technical Projects Specialist}
+% How the letter is opened
+\letteropening{Mr. Taylor,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Resume}
+
+
+%-------------------------------------------------------------------------------
+
+% Print the title with above letter informations
+\makelettertitle
+%-------------------------------------------------------------------------------
+% LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+\\
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}

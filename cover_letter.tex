@@ -1,0 +1,61 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+% \usepackage{showframe} % Debugging
+\usepackage[none]{hyphenat}
+\frenchspacing
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Nicholas Sullivan-Friedman}
+\fullname{Nicholas}{Sullivan-Friedman}
+
+\basicInfo{
+  \email{nicholas@rpgcubed.com} \textperiodcentered\ 
+  \phone{(+1) 415 328-9195} %\textperiodcentered\ 
+  %\linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
+  }
+
+
+%-------------------------------------------------------------------------------
+% LETTER INFORMATION
+% All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Compeat Training and Implementation Team}
+  {Compeat, Inc.\\1670 Corporate Circle\\Suite 101\\Petaluma, CA 94954}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Technical Projects Specialist}
+% How the letter is opened
+\letteropening{Mr. Taylor,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Resume}
+
+
+%-------------------------------------------------------------------------------
+
+% Print the title with above letter informations
+\makelettertitle
+%-------------------------------------------------------------------------------
+% LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+\\
+When I first saw this job posting, I almost laughed out loud. Not at the content, mind you, but at how perfectly it described what I want and love to do. I started my career in the foodservice industry and discovered, in the years to follow, a passion for optimizing and automating the systems around me. At Bean Sprouts, I worked to link our inventory management and POS systems together to provide expected remaining inventory based on sales. By identifying the high-loss areas, and in combination with other changes, I managed to reduce our overall shrinkage by approximately 75\%, while reducing labor spent on inventory by nearly half.\\
+While that's unmistakably trivial compared to what Compeat is doing, the focus on innovation and integration of disparate elements to streamline the end-user experience really resonates with me. Thank you for taking the time to consider my application; I would relish any opportunity to meet and discuss how I would be of benefit to Compeat.
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
