@@ -16,6 +16,9 @@
 % use fontawesome
 \RequirePackage{fontawesome}
 
+% use setspace for singlespace
+\RequirePackage{setspace}
+
 % use xcolor for customizing color
 \RequirePackage[usenames,dvipsnames]{xcolor}
 % loading fonts
