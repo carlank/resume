@@ -30,6 +30,8 @@
 *.fdb_latexmk
 *.fls
 *.out
+*.log
+*.pdf
 *.toc
 *.lof
 *.lot
@@ -42,5 +44,3 @@
 
 ############################################
 # do not upload secret infomation
-myresume.tex
-myresume.pdf
